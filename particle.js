@@ -15,10 +15,7 @@ function person() {
   }
 
   this.display = function() {
-    fill(255, 150);
     stroke(255);
-		fill(195);
-		noStroke();
     rect(this.pos.x, this.pos.y, 40, 50);
   }
 
